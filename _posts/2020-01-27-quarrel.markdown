@@ -13,30 +13,58 @@ featured: true
 Quarrel is a Forge mod for Minecraft 1.12.2. It is distributed under the
 [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 It will not be distributed on CurseForge; this is the official website at
-carbide-sun.github.io.
+carbide-sun.github.io. Yes, this license means you can use it in modpacks.
+Without asking. Really. Please do not ask. The only conditions are you credit
+me (BY), don't make money off it (NC), and don't make changes to it (ND).
 
 # Downloads
-Coming soon.
+*Coming soon.*
 
 # Description
 Quarrel is an alien-themed magitech mod centered around an extremely overdone
 laser quarry. It seeks to answer the question "what if the Teckle Beam Quarry
 was good".
 
-To get started, first you'll need to find a Meteorite containing the <img class="texty" src="/img/krez.png" alt="Krez"/> you
+To get started, first you'll need to find a Meteorite containing the <span class="kezequk">Krez</span> you
 need to power the quarry. You can make these easier to get by creating a Yagi-Uda
 Helmet and Transceiver to politely confuse the alien satellites dropping these
 strange objects onto the planet. The Transceiver can be tuned to any frequency
 between 1100MHz and 1300MHz in increments of 25MHz; based on the world seed,
 each frequency has its own strengths and weaknesses.
 
-The quarry talks in an intentionally-designed alien conlang and all words in
-this conlang are written in a custom font. <img class="texty" src="/img/krez.png" alt="Krez"/> gems are randomly generated
-and have a wide variety of parameters, including color and cadence. Some kinds
-of <img class="texty" src="/img/krez.png" alt="Krez"/> are rarer than others; maybe you can find the ultimate one?
+![]({{site.baseurl}}/img/quarrel-krez.png)
 
-<img class="texty" src="/img/krez.png" alt="Krez"/> are enchantable with any pickaxe enchantments and will be used by the quarry,
-and take damage in the form of Whacks for all damage they do to a block. This
-differs from durability since it applies even if the block isn't broken; relatedly,
-laser quarries know how to work together and if two are mining the same block,
-will break it faster.
+The quarry talks in an intentionally-designed alien conlang and all words in
+this conlang are written in a custom font. <span class="kezequk">Krez</span> gems are randomly generated
+and have a wide variety of parameters, including color and cadence. Some kinds
+of <span class="kezequk">Krez</span> are rarer than others; maybe you can find the ultimate one?
+
+![]({{site.baseurl}}/img/quarrel-speaking-1.png) <audio src="{{site.baseurl}}/audio/quarrel-ready.mp3" controls></audio>
+
+![]({{site.baseurl}}/img/quarrel-speaking-2.png) <audio src="{{site.baseurl}}/audio/quarrel-nogem.mp3" controls></audio>
+
+<span class="kezequk">Krez</span> are enchantable with any pickaxe enchantments
+which  will be used by the quarry, and take damage in the form of Whacks for all
+damage they do to a block. This differs from durability since it applies even if
+the block isn't broken; relatedly, laser quarries know how to work together and
+if two are mining the same block, will break it faster. Rarer <span class="kezequk">Krez</span>
+are better for enchanting, with the ultimate <span class="kezequk">Zepazker Krez</span>
+being as good as gold.
+
+![]({{site.baseurl}}/img/quarrel-enchanting.png)
+
+# Credits
+
+Most textures by [Kat](https://twitter.com/bluberry_kat).
+
+Sounds:
+* [Fireball by qubodup](https://freesound.org/people/qubodup/sounds/442827/)
+* [pulse.wav by sherlock](https://freesound.org/people/sherlock/sounds/22664/)
+* [pulse 1.wav by cameronmusic](https://freesound.org/people/cameronmusic/sounds/138421/)
+* [Metal Clang.aif by timgormly](https://freesound.org/people/timgormly/sounds/170959/)
+* [FireSpell3.wav by alonsotm](https://freesound.org/people/alonsotm/sounds/396500/)
+* [Brick Debris Fall 06.wav by debsound](https://freesound.org/people/debsound/sounds/437602/)
+
+Speech based on output from [MARYTTS](http://mary.dfki.de/).
+
+Everything else by Carbide Sun.
