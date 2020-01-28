@@ -3,9 +3,8 @@ layout: post
 title: "Quarrel"
 image: quarrel.png
 date: 2020-10-27 00:00:00 +0000
+description: "What if quarries could be cool. Sigh, what a nice world that would be. ...Hm, wait. There's no reason quarries *couldn't* be cool, is there?"
 ---
-What if quarries could be cool. Sigh, what a nice world that would be.
-...Hm, wait. There's no reason quarries *couldn't* be cool, is there?
 
 # Introduction
 Quarrel is a Forge mod for Minecraft 1.12.2. It is distributed under the
