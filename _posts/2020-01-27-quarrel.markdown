@@ -15,7 +15,9 @@ Quarrel is a Forge mod for Minecraft 1.12.2. It is distributed under the
 It will not be distributed on CurseForge; this is the official website at
 carbide-sun.github.io. Yes, this license means you can use it in modpacks.
 Without asking. Really. Please do not ask. The only conditions are you credit
-me (BY), don't make money off it (NC), and don't make changes to it (ND).
+me (BY), don't make money off it (NC), and don't make changes to it (ND). **Note
+that this page and the screenshots on it are All Rights Reserved and you cannot
+reproduce this page's content.** Link, don't mirror.
 
 # Downloads
 *Coming soon.*
