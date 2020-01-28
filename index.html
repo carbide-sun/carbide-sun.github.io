@@ -11,7 +11,7 @@ layout: default
 	<div class="row">
 	{% if site.posts.size > 0 %}
 		{%- for post in paginator.posts -%}
-		{% if forloop.index <= 1 %}
+		{% if post.featured %}
 		<div class="col col-12">
 			<article class="article-first">
 				<div class="article-image-first" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
@@ -25,7 +25,7 @@ layout: default
 						</div>
 						<h2 class="article-title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
 						<p class="article-excerpt">{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{% else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}</p>
-						<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">Read More</a>
+						<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">View</a>
 					</div>
 				</div>
 			</article> <!-- /.article-first -->
@@ -41,13 +41,18 @@ layout: default
 	<div class="row">
 		<div class="col col-12 col-t-8">
 			<div class="row">
-			{%- for post in paginator.posts offset: 1 -%}
+			{%- for post in paginator.posts -%}
+				{% unless post.featured %}
 				<article class="article col col-12 col-t-6">
 					<div class="article-box">
 						<div class="article-head">
 							<a href="{{ post.url | prepend: site.baseurl }}" class="article-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
 								<div class="image-overlay">
+								{% if post.logo %}
+									<span class="image-overlay-text"><img src="{{"/img/" | prepend: site.baseurl | append : post.logo}}" alt="{{post.title | slice: 0}}/></span>
+								{% else %}
 									<span class="image-overlay-text">{{post.title | slice: 0}}</span>
+								{% endif %}
 								</div>
 							</a>
 						</div>
@@ -71,6 +76,7 @@ layout: default
 						</div>
 					</div>
 				</article> <!-- /.article -->
+				{% endif %}
 			{% endfor %}
 			</div>
 			{% include pagination.html %}
