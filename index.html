@@ -3,8 +3,14 @@ layout: default
 ---
 <div class="container">
 	<div class="row">
-		Yo. I'm Carbide Sun and this is my web zone.
-		<img src="/img/construction.gif"/>
+		<div class="col col-12">
+			<p>
+			Yo. I'm Carbide Sun. I make Minecraft mods. This is my website,
+			where you can read about and download my mods.
+			<p>
+			Death to CurseForge, long live the indie web. (For as much as GitHub
+			pages hosting can be considered the indie web, at least.)
+		</div>
 	</div>
 </div>
 <div class="container">
@@ -23,7 +29,13 @@ layout: default
 							{% endfor %}
 						{% else %} {% endif %}
 						</div>
-						<h2 class="article-title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
+						<h2 class="article-title"><a href="{{ post.url | prepend: site.baseurl }}">
+						{% if post.logo %}
+							<img class="texty-big" src="{{"/img/" | prepend: site.baseurl | append : post.logo}}" alt="{{post.title}}"/>
+						{% else %}
+							{{post.title}}
+						{% endif %}
+						</a></h2>
 						<p class="article-excerpt">{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{% else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}</p>
 						<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">View</a>
 					</div>
@@ -48,11 +60,7 @@ layout: default
 						<div class="article-head">
 							<a href="{{ post.url | prepend: site.baseurl }}" class="article-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
 								<div class="image-overlay">
-								{% if post.logo %}
-									<span class="image-overlay-text"><img src="{{"/img/" | prepend: site.baseurl | append : post.logo}}" alt="{{post.title | slice: 0}}/></span>
-								{% else %}
-									<span class="image-overlay-text">{{post.title | slice: 0}}</span>
-								{% endif %}
+								<span class="image-overlay-text">{{post.title | slice: 0}}</span>
 								</div>
 							</a>
 						</div>
@@ -70,13 +78,19 @@ layout: default
 								</div>
 							</div>
 							<h2 class="article-title">
-								<a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+								<a href="{{ post.url | prepend: site.baseurl }}">
+								{% if post.logo %}
+									<img class="texty-big" src="{{"/img/" | prepend: site.baseurl | append : post.logo}}" alt="{{post.title | slice: 0}}"/>
+								{% else %}
+									{{post.title}}
+								{% endif %}
+								</a>
 							</h2>
 							<p class="article-excerpt">{% if post.description %}{{ post.description | strip_html | truncate: 135 }}{% else %}{{ post.content | strip_html | truncate: 135 }}{% endif %}</p>
 						</div>
 					</div>
 				</article> <!-- /.article -->
-				{% endif %}
+				{% endunless %}
 			{% endfor %}
 			</div>
 			{% include pagination.html %}

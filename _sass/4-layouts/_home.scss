@@ -1,7 +1,10 @@
 // Header
 .header {
   margin-bottom: 50px;
-  background: $primary;
+  background: $primary-color;
+  * {
+    color: #FFF !important;
+  }
 }
 
 .header, .header-box {
@@ -208,8 +211,26 @@
     padding: 20px;
     color: $text;
     .article-tag {
+      margin-bottom: 10px;
       .tag {
+        display: inline-block;
+        padding: 2px 5px;
+        margin-right: 5px;
         font-size: 12px;
+        line-height: 18px;
+        font-weight: bold;
+        border: 1px solid $primary-color;
+        border-radius: $global-radius;
+        text-transform: capitalize;
+        color: $primary-color;
+        transition: $global-transition;
+        &:last-child {
+          margin-right: 0;
+        }
+        &:hover {
+          background: $primary-color;
+          color: $white;
+        }
       }
     }
     .article-date {
@@ -219,7 +240,7 @@
       }
     }
     .article-title {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       font-size: 30px;
       line-height: 30px;
       font-weight: normal;
@@ -295,7 +316,6 @@
       width: 0;
       height: 100%;
       background-color: rgba(0,0,0,0.8);
-      opacity: 0;
       transition: all 0.4s ease;
     }
     .image-overlay-text {
@@ -308,7 +328,6 @@
       color: $text;
       transform: translate(-50%,-50%);
       transition: all 0.4s ease 0.3s;
-      opacity: 0;
     }
   }
   .article-content {
@@ -368,7 +387,6 @@
 
 .article-first .article-image-first, .article-box .article-image {
   position: relative;
-  opacity: 0;
   transition: all 1s cubic-bezier(0.6, 0.3, 0, 1);
 }
 

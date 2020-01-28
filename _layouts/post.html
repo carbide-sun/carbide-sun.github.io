@@ -24,7 +24,13 @@ layout: default
 						{% endfor %}
 					</div>
 					{% endif %}
-					<h1 class="post-title">{{ page.title | escape }}</h1>
+					<h1 class="post-title">
+					{% if page.logo %}
+						<img class="texty-big" src="{{"/img/" | prepend: site.baseurl | append : page.logo}}" alt="{{page.title}}"/>
+					{% else %}
+						{{ page.title | escape }}
+					{% endif %}
+					</h1>
 					<div class="post-info">
 						<div class="post-info-author">
 							<div class="info-author-avatar" style="background-image: url({{"/img/" | prepend: site.baseurl | append : site.author-avatar}})"></div>

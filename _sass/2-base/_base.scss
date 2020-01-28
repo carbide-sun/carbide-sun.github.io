@@ -211,3 +211,15 @@ table td {
 table tr:hover {
   background-color: $white;
 }
+
+img.texty {
+  height: 0.7em;
+  vertical-align: baseline;
+  display: inline-block;
+}
+
+img.texty-big {
+  height: 1.5em;
+  vertical-align: baseline;
+  display: inline-block;
+}

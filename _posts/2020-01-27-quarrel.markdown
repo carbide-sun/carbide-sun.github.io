@@ -6,6 +6,7 @@ image: quarrel.png
 date: 2020-01-27 00:00:00 +0000
 description: "What if quarries were cool. Sigh, what a nice world that would be. ...Hm, wait. There's no reason quarries couldn't be cool, is there?"
 tags: ["forge", "1.12.2", "magitech", "alien", "quarry"]
+featured: true
 ---
 
 # Introduction
@@ -22,7 +23,7 @@ Quarrel is an alien-themed magitech mod centered around an extremely overdone
 laser quarry. It seeks to answer the question "what if the Teckle Beam Quarry
 was good".
 
-To get started, first you'll need to find a Meteorite containing the <img class="kezequk" src="/img/krez.png" alt="Krez"/> you
+To get started, first you'll need to find a Meteorite containing the <img class="texty" src="/img/krez.png" alt="Krez"/> you
 need to power the quarry. You can make these easier to get by creating a Yagi-Uda
 Helmet and Transceiver to politely confuse the alien satellites dropping these
 strange objects onto the planet. The Transceiver can be tuned to any frequency
@@ -30,11 +31,11 @@ between 1100MHz and 1300MHz in increments of 25MHz; based on the world seed,
 each frequency has its own strengths and weaknesses.
 
 The quarry talks in an intentionally-designed alien conlang and all words in
-this conlang are written in a custom font. <img class="kezequk" src="/img/krez.png" alt="Krez"/> gems are randomly generated
+this conlang are written in a custom font. <img class="texty" src="/img/krez.png" alt="Krez"/> gems are randomly generated
 and have a wide variety of parameters, including color and cadence. Some kinds
-of <img class="kezequk" src="/img/krez.png" alt="Krez"/> are rarer than others; maybe you can find the ultimate one?
+of <img class="texty" src="/img/krez.png" alt="Krez"/> are rarer than others; maybe you can find the ultimate one?
 
-<img class="kezequk" src="/img/krez.png" alt="Krez"/> are enchantable with any pickaxe enchantments and will be used by the quarry,
+<img class="texty" src="/img/krez.png" alt="Krez"/> are enchantable with any pickaxe enchantments and will be used by the quarry,
 and take damage in the form of Whacks for all damage they do to a block. This
 differs from durability since it applies even if the block isn't broken; relatedly,
 laser quarries know how to work together and if two are mining the same block,
