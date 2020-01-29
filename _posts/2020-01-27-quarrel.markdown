@@ -15,23 +15,27 @@ Quarrel is a Forge mod for Minecraft 1.12.2. It is distributed under the
 It will not be distributed on CurseForge; this is the official website at
 carbide-sun.github.io. Yes, this license means you can use it in modpacks.
 Without asking. Really. Please do not ask. The only conditions are you credit
-me (BY), don't make money off it (NC), and don't make changes to it (ND). **Note
-that this page and the screenshots on it are All Rights Reserved and you cannot
-reproduce this page's content.** Link, don't mirror.
+me (BY), don't make money off it (NC), and don't make changes to it (ND). I
+consider the mod authorship information shown in the mods screen as sufficient
+attribution in modpacks — websites and redistributions must link back to this
+page. **Note that this page and the screenshots on it are All Rights Reserved
+and you cannot reproduce this page's content.** Link, don't mirror.
 
 # Downloads
 *Coming soon.*
 
 # Description
 Quarrel is an alien-themed magitech mod centered around an extremely overdone
-laser quarry. It seeks to answer the question "what if the Teckle Beam Quarry
-was good".
+laser quarry. It's the result of asking the question "what if quarries, except
+laser", being bored, and following every tangential idea to its logical
+conclusion and allowing those tangents to shape the mod.
 
 To get started, first you'll need to find a Meteorite containing the <span class="kezequk">Krez</span>
 you need to power the quarry. <span class="kezequk">Krez</span> gems are randomly
 generated and have a wide variety of parameters, including color and cadence. Some
 kinds of <span class="kezequk">Krez</span> are rarer than others; maybe you can
-find the ultimate one? (Note: All these parameters are purely visual.)
+find the ultimate one? (Note: All these parameters are purely cosmetic, but their
+overall rarity is factored into a couple things.)
 
 ![]({{site.baseurl}}/img/quarrel-krez.png)
 
@@ -62,9 +66,21 @@ This differs from durability since it applies even if the block isn't broken;
 relatedly, laser quarries know how to work together and if two are mining the
 same block, will break it faster.
 
+# Contact
+
+**If you are rude I will ignore you, period**. I don't use an issue tracker or
+forum, comments, etc. Instead you can contact me via email — [carbide-sun@pm.me](mailto:carbide-sun@pm.me).
+Warning: don't waste my time. I do this as a small hobby for fun.
+
+Feel free to ask questions, report bugs, talk about mods in general, etc. As
+long as you're polite and understand I have better things to do than field
+vitriol.
+
+Banned topics: License, modpack rights (see introduction), plotholes/nitpicking.
+
 # Credits
 
-Most textures by [Kat](https://twitter.com/bluberry_kat).
+Quarry, meteorite, and gem textures by [Kat](https://twitter.com/bluberry_kat).
 
 Sounds:
 * [Fireball by qubodup](https://freesound.org/people/qubodup/sounds/442827/)
@@ -73,6 +89,7 @@ Sounds:
 * [Metal Clang.aif by timgormly](https://freesound.org/people/timgormly/sounds/170959/)
 * [FireSpell3.wav by alonsotm](https://freesound.org/people/alonsotm/sounds/396500/)
 * [Brick Debris Fall 06.wav by debsound](https://freesound.org/people/debsound/sounds/437602/)
+* [Soaring Clouds by bruce965](https://freesound.org/people/bruce965/sounds/464108/)
 
 Speech based on output from [MARYTTS](http://mary.dfki.de/).
 
