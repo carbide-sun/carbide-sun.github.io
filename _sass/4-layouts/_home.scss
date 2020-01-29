@@ -106,28 +106,28 @@
   height: 40px;
   font-size: 40px;
   border-radius: 50%;
-  border: 2px solid $gray-blue;
-  color: $gray-blue;
+  border: 2px solid #FFF;
+  opacity: 0.7;
   transition: all $global-transition;
   cursor: pointer;
   &:hover {
-    border-color: $text;
-    color: $text;
+    opacity: 1;
   }
 }
 
 .nav-menu .menu-link,
-.nav-buttons i.ion {
-  transition: color $global-transition;
+.nav-buttons img {
+  opacity: 0.7;
+  transition: opacity $global-transition;
   &:hover {
-    color: #fff;
+    opacity: 1;
   }
 }
 
 .nav-buttons {
-  i.ion {
+  img {
     margin-left: 10px;
-    font-size: 20px;
+    height: 24px;
     vertical-align: middle;
     color: $text;
     cursor: pointer;
@@ -254,6 +254,7 @@
       margin-bottom: 30px;
       font-size: 14px;
       line-height: 23px;
+	  text-shadow: 0px 0px 2px #000, 0px 0px 2px #000, 0px 0px 2px #000;
     }
     .button {
       font-size: 14px;
@@ -470,10 +471,11 @@
     }
   }
   .nav-menu .menu-link,
-  .nav-buttons i.ion {
-    transition: color $global-transition;
+  .nav-buttons img {
+    opacity: 0.7;
+    transition: opacity $global-transition;
     &:hover {
-      color: #fff;
+      opacity: 1;
     }
   }
 }

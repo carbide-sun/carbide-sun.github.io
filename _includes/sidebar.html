@@ -1,9 +1,10 @@
 <aside class="sidebar">
   
-  {% if page.id %}
+  {% if page.id && site.posts.size > 1 %}
   <div class="widget widget-recent">
-    <h3 class="widget-title">Recent Posts</h3>
-    {% for post in site.posts limit:4 %}
+    <h3 class="widget-title">Other Mods</h3>
+    {% for post in site.posts %}
+    {% unless post.id == page.id %}
     <div class="recent-posts">
       {% if post.image %}
       <div class="recent-header">
@@ -12,25 +13,29 @@
       {% else %}
       {% endif %}
       <div class="recent-content">
-        <h6 class="recent-title"><a href="{{ root_url }}{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h6>
+        <h6 class="recent-title"><a href="{{ root_url }}{{ post.url | prepend: site.baseurl }}">
+        {% if post.logo %}
+          <img class="texty-big" src="{{"/img/" | prepend: site.baseurl | append : post.logo}}" alt="{{post.title}}"/>
+        {% else %}
+          {{ post.title }}
+        {% endif %}
+        </a></h6>
+        <div class="article-tag">
+          {% if post.tags.size >= 1 %}
+            {% for tag in post.tags %}
+              <a href="{{ site.baseurl }}/tags#{{tag}}" class="tag">{{ tag }}</a>
+            {% endfor %}
+          {% endif %}
+        </div>
         <div class="recent-date">
           <time datetime="{{ post.date | date_to_xmlschema }}">{{post.date | date: "%B %-d, %Y"}}</time>
         </div>
       </div>
     </div>
+    {% endunless %}
     {% endfor %}
   </div>
   {% else %}
-  {% endif %}
-
-  {% if site.instafeed == true %}
-  <div class="widget widget-instagram">
-    <h3 class="widget-title">Instagram</h3>
-    <div class="instagram-box">
-      <ul id="instafeed" class="instagram-grid list-reset clearfix"></ul>
-      <a class="instagram-prof" href="#">&#64;UserName</a>
-    </div>
-  </div>
   {% endif %}
   
 </aside> <!-- /.sidebar -->

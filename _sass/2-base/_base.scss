@@ -3,7 +3,7 @@ $base-font-size: 16px;
 $base-font-style: normal;
 $base-font-variant: normal;
 $base-font-weight: normal;
-$base-font-family: 'Nunito', sans-serif;
+$base-font-family: 'Livvic', sans-serif;
 $base-line-height: 28px;
 
 .kezequk {
@@ -48,7 +48,7 @@ body {
 
 // Headings
 $heading-font-weight: 700;
-$heading-font-family: 'Nunito', -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+$heading-font-family: 'Livvic', sans-serif;
 
 $font-size-h1:  36px;
 $font-size-h2:  28px;
@@ -69,26 +69,32 @@ h6 {
 }
 
 h1 {
+  font-family: $heading-font-family;
   font-size: $font-size-h1;
 }
 
 h2 {
+  font-family: $heading-font-family;
   font-size: $font-size-h2;
 }
 
 h3 {
+  font-family: $heading-font-family;
   font-size: $font-size-h3;
 }
 
 h4 {
+  font-family: $heading-font-family;
   font-size: $font-size-h4;
 }
 
 h5 {
+  font-family: $heading-font-family;
   font-size: $font-size-h5;
 }
 
 h6 {
+  font-family: $heading-font-family;
   font-size: $font-size-h6;
 }
 
