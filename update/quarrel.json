@@ -1,9 +1,10 @@
 {
   "homepage": "https://carbide-sun.github.io/quarrel",
   "promos": {
-    "1.12.2-latest": "0.13520350049.11"
+    "1.12.2-latest": "0.13531843206.0"
   },
   "1.12.2": {
+    "0.13531843206.0": "Added GUI, bugfixes",
     "0.13520350049.11": ""
   }
 }
