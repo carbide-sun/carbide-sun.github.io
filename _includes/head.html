@@ -19,5 +19,19 @@
     {% include main.scss %}
   {% endcapture %}
   {{ include_to_scssify | scssify }}
+  @font-face {
+    font-family: 'Kezequk';
+    src: url({{site.baseurl}}/font/Kezequk.woff2) format("woff2"),
+         url({{site.baseurl}}/font/Kezequk.ttf) format("truetype");
+  }
+  .download {
+    background-image: url({{site.baseurl}}/img/download.svg);
+  }
+  .download.forge:after {
+    background-image: url({{site.baseurl}}/img/forge-logo-white.svg);
+  }
+  .download.alpha {
+    background-image: url({{site.baseurl}}/img/download-alpha.svg);
+  }
   </style>
 </head>

@@ -229,7 +229,7 @@
 }
 
 audio {
-	width: 100%;
+  width: 100%;
 }
 
 .recent-content .article-tag {
@@ -253,4 +253,58 @@ audio {
       color: $white;
     }
   }
+}
+
+.download {
+  background-color: #78909C;
+  color: #000 !important;
+  display: inline-block;
+  width: 100%;
+  max-width: 320px;
+  border-radius: 4px;
+  padding: 8px;
+  padding-left: 52px;
+  padding-right: 108px;
+  min-height: 36px;
+  background-position: 8px center;
+  background-size: 36px 36px;
+  background-repeat: no-repeat;
+  position: relative;
+  box-shadow: #000 0px 2px 4px;
+}
+.download.forge:after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 18px;
+  height: 16px;
+  width: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.download .mcversion {
+  position: absolute;
+  right: 8px;
+  top: 34px;
+  font-weight: bold;
+}
+.download.alpha {
+  background-color: #F44336;
+  color: #FFF !important;
+  box-shadow: #FF5252 0px 2px 8px;
+}
+.download:hover {
+  filter: brightness(120%);
+}
+.download .title {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+}
+.download .version {
+  display: block;
+}
+.download .version:before {
+  content: "v";
 }
