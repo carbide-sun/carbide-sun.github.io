@@ -74,6 +74,13 @@ The quarry additionally has a GUI that can be used to swap out <span class="keze
 see its current progress, and set the area it will mine in, with each square
 being 5x5 blocks, with the maximum possible area being 45x45.
 
+# Known Issues
+
+* The mirror's angle makes no sense. It's sometimes close enough but other times
+  way off; trigonometry is hard, okay?
+* Lasers are too thin from some angles. (More slightly-busted trig I was tired
+  of messing with.)
+
 # Contact
 
 **If you are rude I will ignore you, period**. I don't use an issue tracker or
