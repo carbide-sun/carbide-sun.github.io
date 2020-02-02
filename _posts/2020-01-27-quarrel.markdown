@@ -66,6 +66,14 @@ This differs from durability since it applies even if the block isn't broken;
 relatedly, laser quarries know how to work together and if two are mining the
 same block, will break it faster.
 
+<center>
+<img src="{{site.baseurl}}/img/quarrel-interface.png">
+</center>
+
+The quarry additionally has a GUI that can be used to swap out <span class="kezequk">Krez</span>,
+see its current progress, and set the area it will mine in, with each square
+being 5x5 blocks, with the maximum possible area being 45x45.
+
 # Contact
 
 **If you are rude I will ignore you, period**. I don't use an issue tracker or
@@ -80,7 +88,7 @@ Banned topics: License, modpack rights (see introduction), plotholes/nitpicking.
 
 # Credits
 
-Quarry, meteorite, and gem textures by [Kat](https://twitter.com/bluberry_kat).
+Quarry block, meteorite, and gem textures by [Kat](https://twitter.com/bluberry_kat).
 
 Sounds:
 * [Fireball by qubodup](https://freesound.org/people/qubodup/sounds/442827/)
