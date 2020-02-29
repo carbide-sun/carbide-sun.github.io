@@ -22,7 +22,41 @@ page. **Note that this page and the screenshots on it are All Rights Reserved
 and you cannot reproduce this page's content.** Link, don't mirror.
 
 # Downloads
-<a href="{{site.baseurl}}/dl/Quarrel-0.13531843206.3.jar" class="download forge alpha"><span class="title">Quarrel</span><span class="version">0.13531843206.3</span><span class="mcversion">1.12.2</span></a>
+<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.0.jar" class="download forge alpha"><span class="title">Quarrel</span><span class="version">0.13534475848.0</span><span class="mcversion">1.12.2</span></a>
+
+## Changelog
+
+### v0.13534475848.0
+
+#### Major New Features
+
+- <span class="kezequk">Krez</span> may now be repaired by dropping two of them on the ground at different heights; the one higher up will transfer its durability to the lower one, with speed dependent on height difference
+- <span class="kezequk">Krez</span> no longer despawn when on the ground
+- Quarries now evaporate water into Mineral Sand to prevent flooding
+- Added Herobrine
+
+#### Minor New Features
+
+- Added new krez types
+- Added config option to adjust meteor rarity
+
+#### Fixes
+
+- Made meteors rarer when not holding an active Transceiver
+- Quarry speech now belongs to the "Voice/Speech" sound category
+- Fixed various effects not working in multiplayer
+- Fixed quarries deactivating before they finished "downloading" items
+- Fixed meteor spawns flying into unloaded chunks
+- Meteors may no longer fall in non-"surface" worlds
+- <span class="kezequk">Krez</span> may no longer be enchanted with Mending (it did nothing)
+- Mirror rendering has been tweaked slightly
+
+### v0.13531843206.3
+
+- Initial public release.
+
+## Old Versions
+<a href="{{site.baseurl}}/dl/Quarrel-0.13531843206.3.jar" class="download forge alpha old"><span class="title">Quarrel</span><span class="version">0.13531843206.3</span><span class="mcversion">1.12.2</span></a>
 
 # Description
 Quarrel is an alien-themed magitech mod centered around an extremely overdone
@@ -105,6 +139,7 @@ Sounds:
 * [FireSpell3.wav by alonsotm](https://freesound.org/people/alonsotm/sounds/396500/)
 * [Brick Debris Fall 06.wav by debsound](https://freesound.org/people/debsound/sounds/437602/)
 * [Soaring Clouds by bruce965](https://freesound.org/people/bruce965/sounds/464108/)
+* [Dark Magic Loop by qubodup](https://freesound.org/people/qubodup/sounds/442825/)
 
 Speech based on output from [MARYTTS](http://mary.dfki.de/).
 

@@ -295,7 +295,7 @@ audio {
   box-shadow: #FF5252 0px 2px 8px;
 }
 .download:hover {
-  filter: brightness(120%);
+  filter: brightness(130%);
 }
 .download .title {
   display: block;
@@ -307,4 +307,13 @@ audio {
 }
 .download .version:before {
   content: "v";
+}
+.download.old {
+  transform: scale(0.8);
+  transform-origin: 0 0;
+  margin: 0;
+  filter: saturate(0.5);
+}
+.download.old:hover {
+  filter: saturate(0.6) brightness(120%);
 }

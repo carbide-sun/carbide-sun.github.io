@@ -1,9 +1,10 @@
 {
   "homepage": "https://carbide-sun.github.io/quarrel",
   "promos": {
-    "1.12.2-latest": "0.13531843206.3"
+    "1.12.2-latest": "0.13534475848.0"
   },
   "1.12.2": {
+    "0.13534475848.0": "Major New Features:\n- Krez may now be repaired by dropping two of them on the ground at different heights; the one higher up will transfer its durability to the lower one, with speed dependent on height difference\n- Krez no longer despawn when on the ground\n- Quarries now evaporate water into Mineral Sand to prevent flooding\n- Added Herobrine\n\nMinor New Features:\n- Added new krez types\n- Added config option to adjust meteor rarity\n\nFixes:\n- Made meteors rarer when not holding an active Transceiver\n- Quarry speech now belongs to the \"Voice/Speech\" sound category\n- Fixed various effects not working in multiplayer\n- Fixed quarries deactivating before they finished \"downloading\" items\n- Fixed meteor spawns flying into unloaded chunks\n- Meteors may no longer fall in non-\"surface\" worlds\n- Krez may no longer be enchanted with Mending (it did nothing)\n- Mirror rendering has been tweaked slightly",
     "0.13531843206.3": "Meteor improvements, bugfixes. Initial public release",
     "0.13531843206.0": "Added GUI, bugfixes",
     "0.13520350049.11": "Initial private playtest release"
