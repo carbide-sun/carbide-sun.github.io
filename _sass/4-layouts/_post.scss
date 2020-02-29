@@ -270,6 +270,7 @@ audio {
   background-size: 36px 36px;
   background-repeat: no-repeat;
   position: relative;
+  margin-bottom: 8px;
   box-shadow: #000 0px 2px 4px;
 }
 .download.forge:after {
@@ -311,9 +312,12 @@ audio {
 .download.old {
   transform: scale(0.8);
   transform-origin: 0 0;
-  margin: 0;
   filter: saturate(0.5);
+  margin-bottom: -32px;
 }
 .download.old:hover {
   filter: saturate(0.6) brightness(120%);
+}
+.time.parsed {
+  text-decoration: dashed underline;
 }

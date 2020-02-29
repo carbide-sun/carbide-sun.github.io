@@ -22,25 +22,24 @@ page. **Note that this page and the screenshots on it are All Rights Reserved
 and you cannot reproduce this page's content.** Link, don't mirror.
 
 # Downloads
-<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.0.jar" class="download forge alpha"><span class="title">Quarrel</span><span class="version">0.13534475848.0</span><span class="mcversion">1.12.2</span></a>
 
-## Changelog
+## v0.13534475848.0
+<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.0.jar" title="Download Quarrel v0.13534475848.0 for Forge on Minecraft 1.12.2" class="download forge alpha"><span class="title">Quarrel</span><span class="version">0.13534475848.0</span><span class="mcversion">1.12.2</span></a>  
+Released <span class="time" data-timestamp="1582912800">February 28th, 2020</span>
 
-### v0.13534475848.0
-
-#### Major New Features
+### Major New Features
 
 - <span class="kezequk">Krez</span> may now be repaired by dropping two of them on the ground at different heights; the one higher up will transfer its durability to the lower one, with speed dependent on height difference
 - <span class="kezequk">Krez</span> no longer despawn when on the ground
 - Quarries now evaporate water into Mineral Sand to prevent flooding
 - Added Herobrine
 
-#### Minor New Features
+### Minor New Features
 
 - Added new krez types
 - Added config option to adjust meteor rarity
 
-#### Fixes
+### Fixes
 
 - Made meteors rarer when not holding an active Transceiver
 - Quarry speech now belongs to the "Voice/Speech" sound category
@@ -51,12 +50,16 @@ and you cannot reproduce this page's content.** Link, don't mirror.
 - <span class="kezequk">Krez</span> may no longer be enchanted with Mending (it did nothing)
 - Mirror rendering has been tweaked slightly
 
-### v0.13531843206.3
+<details markdown="1">
+<summary style="font-family:'Livvic',sans-serif;font-size:36px;font-weight:bold;margin-bottom:15px">Old Downloads</summary>
+## v0.13531843206.3
+<a href="{{site.baseurl}}/dl/Quarrel-0.13531843206.3.jar" title="Download Quarrel v0.13531843206.3 for Forge on Minecraft 1.12.2" class="download forge alpha old"><span class="title">Quarrel</span><span class="version">0.13531843206.3</span><span class="mcversion">1.12.2</span></a>  
+Released <span class="time" data-timestamp="1580666400">February 2nd, 2020</span>
 
-- Initial public release.
+### Major New Features
 
-## Old Versions
-<a href="{{site.baseurl}}/dl/Quarrel-0.13531843206.3.jar" class="download forge alpha old"><span class="title">Quarrel</span><span class="version">0.13531843206.3</span><span class="mcversion">1.12.2</span></a>
+- Initial public release
+</details>
 
 # Description
 Quarrel is an alien-themed magitech mod centered around an extremely overdone
