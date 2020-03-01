@@ -36,7 +36,7 @@ Released <span class="time" data-timestamp="1582912800">February 28th, 2020</spa
 
 ### Minor New Features
 
-- Added new krez types
+- Added new <span class="kezequk">Krez</span> types
 - Added config option to adjust meteor rarity
 
 ### Fixes
