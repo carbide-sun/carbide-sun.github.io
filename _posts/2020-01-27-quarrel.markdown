@@ -23,8 +23,24 @@ and you cannot reproduce this page's content.** Link, don't mirror.
 
 # Downloads
 
+## v0.13534475848.10
+<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.10.jar" title="Download Quarrel v0.13534475848.10 for Forge on Minecraft 1.12.2" class="download forge alpha"><span class="title">Quarrel</span><span class="version">0.13534475848.10</span><span class="mcversion">1.12.2</span></a>  
+Released <span class="time" data-timestamp="1582999200">February 29th, 2020</span>
+
+### Major New Features
+
+- Quarries now turn lava into obsidian or cobblestone
+- Quarries can now insert directly into IItemHandler pipes such as Thermal Dynamics itemducts
+- Quarries can now insert directly into IItemTransactor pipes such as BuildCraft transport pipes
+- Quarries will stop and complain every 30 seconds if they are outputting into a tile and it stops accepting output
+
+### Fixes
+
+- <span class="kezequk">Krez</span> shift clicking now works correctly
+- Fixed activation/deactivation sounds being way too loud
+
 ## v0.13534475848.0
-<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.0.jar" title="Download Quarrel v0.13534475848.0 for Forge on Minecraft 1.12.2" class="download forge alpha"><span class="title">Quarrel</span><span class="version">0.13534475848.0</span><span class="mcversion">1.12.2</span></a>  
+<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.0.jar" title="Download Quarrel v0.13534475848.0 for Forge on Minecraft 1.12.2" class="download forge alpha old"><span class="title">Quarrel</span><span class="version">0.13534475848.0</span><span class="mcversion">1.12.2</span></a>  
 Released <span class="time" data-timestamp="1582912800">February 28th, 2020</span>
 
 ### Major New Features
