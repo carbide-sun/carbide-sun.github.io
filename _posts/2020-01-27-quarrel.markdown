@@ -46,7 +46,7 @@ Released <span class="time" data-timestamp="1583172000">March 2nd, 2020</span>
 
 ### Major New Features
 
-- Depleted <span k krez></span> can now be broken by shift-rightclicking - this produces <span k krez-kra></span> and <span k krekon></span>
+- Depleted <span k krez></span> can now be broken by shift-rightclicking - this produces 4 <span k krez-kra></span> and a <span k krekon></span>
 - <span k krez-kra></span> can be crafted into a similarly colored translucent block, which the quarry cannot mine
 - <span k krekon></span> can be used to provide a speed boost to a quarry; up to 16 can be added with diminishing returns (16 is equivalent to Efficiency IV)
 - <span k krez></span> repair may now occur between item frames
@@ -56,6 +56,8 @@ Released <span class="time" data-timestamp="1583172000">March 2nd, 2020</span>
 - Added another new <span k krez></span> type
 - Added a creative tab
 - <span k krez></span> now pulse while in item frames
+- Vanilla sand-containing recipes are now corrected to use the sand oredict, to make Mineral Sand useful
+- Mineral Sand can now be smelted into light gray stained glass
 
 ### Changes
 
