@@ -295,6 +295,11 @@ audio {
   color: #FFF !important;
   box-shadow: #FF5252 0px 2px 8px;
 }
+.download.beta {
+  background-color: #FF9800;
+  color: #000 !important;
+  box-shadow: #FFAB40 0px 2px 8px;
+}
 .download:hover {
   filter: brightness(130%);
 }

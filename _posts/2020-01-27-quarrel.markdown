@@ -9,6 +9,23 @@ tags: ["forge", "1.12.2", "magitech"]
 featured: true
 ---
 
+<style>
+span[k] {
+	display: inline;
+	font-family: 'Kezequk', serif;
+	font-size: .8em;
+}
+span[k][krez]:after { content: "Krez"; }
+span[k][krez-kra]:after { content: "Krez Kra"; }
+span[k][krekon]:after { content: "Krekon"; }
+span[k][kezequk]:after { content: "Kezequk"; }
+
+span[k]:before { display: inline-block; margin-right: 4px; background-size: 24px 24px; width: 24px; height: 24px; vertical-align: middle; }
+span[k][krez]:before { content: "";  background-image: url("{{site.baseurl}}/img/quarrel-krez-pic.png"); }
+span[k][krez-kra]:before { content: ""; background-image: url("{{site.baseurl}}/img/quarrel-krez-kra-pic.png"); }
+span[k][krekon]:before { content: ""; background-image: url("{{site.baseurl}}/img/quarrel-krekon-pic.png"); }
+</style>
+
 # Introduction
 Quarrel is a Forge mod for Minecraft 1.12.2. It is distributed under the
 [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
@@ -23,8 +40,36 @@ and you cannot reproduce this page's content.** Link, don't mirror.
 
 # Downloads
 
+## v0.13534475848.17
+<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.17.jar" title="Download Quarrel Beta v0.13534475848.17 for Forge on Minecraft 1.12.2" class="download forge beta"><span class="title">Quarrel</span><span class="version">0.13534475848.17</span><span class="mcversion">1.12.2</span></a>  
+Released <span class="time" data-timestamp="1583172000">March 2nd, 2020</span>
+
+### Major New Features
+
+- Depleted <span k krez></span> can now be broken by shift-rightclicking - this produces <span k krez-kra></span> and <span k krekon></span>
+- <span k krez-kra></span> can be crafted into a similarly colored translucent block, which the quarry cannot mine
+- <span k krekon></span> can be used to provide a speed boost to a quarry; up to 16 can be added with diminishing returns (16 is equivalent to Efficiency IV)
+- <span k krez></span> repair may now occur between item frames
+
+### Minor New Features
+
+- Added another new <span k krez></span> type
+- Added a creative tab
+- <span k krez></span> now pulse while in item frames
+
+### Changes
+
+- Quarry speech subtitles now only show when within 8 blocks of the source of the speech
+- <span k krez></span> now last 50% less time to encourage Unbreaking and make it more reasonable to obtain the new items
+- Quarries now drop their held items when broken (this was previously a non-issue as quarries were unbreakable in survival while they held a <span k krez></span>, but they may now hold <span k krekon></span> as well)
+- Fixed quarries not starting correctly if they were asked to mine an area wholly in front of one they previously mined out
+- Fixed mining area not syncing correctly
+- Fixed quarries sometimes getting stuck for no reason
+
+<details markdown="1">
+<summary style="font-family:'Livvic',sans-serif;font-size:36px;font-weight:bold;margin-bottom:15px">Old Downloads</summary>
 ## v0.13534475848.10
-<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.10.jar" title="Download Quarrel v0.13534475848.10 for Forge on Minecraft 1.12.2" class="download forge alpha"><span class="title">Quarrel</span><span class="version">0.13534475848.10</span><span class="mcversion">1.12.2</span></a>  
+<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.10.jar" title="Download Quarrel Alpha v0.13534475848.10 for Forge on Minecraft 1.12.2" class="download forge alpha old"><span class="title">Quarrel</span><span class="version">0.13534475848.10</span><span class="mcversion">1.12.2</span></a>  
 Released <span class="time" data-timestamp="1582999200">February 29th, 2020</span>
 
 ### Major New Features
@@ -36,23 +81,23 @@ Released <span class="time" data-timestamp="1582999200">February 29th, 2020</spa
 
 ### Fixes
 
-- <span class="kezequk">Krez</span> shift clicking now works correctly
+- <span k krez></span> shift clicking now works correctly
 - Fixed activation/deactivation sounds being way too loud
 
 ## v0.13534475848.0
-<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.0.jar" title="Download Quarrel v0.13534475848.0 for Forge on Minecraft 1.12.2" class="download forge alpha old"><span class="title">Quarrel</span><span class="version">0.13534475848.0</span><span class="mcversion">1.12.2</span></a>  
+<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.0.jar" title="Download Quarrel Alpha v0.13534475848.0 for Forge on Minecraft 1.12.2" class="download forge alpha old"><span class="title">Quarrel</span><span class="version">0.13534475848.0</span><span class="mcversion">1.12.2</span></a>  
 Released <span class="time" data-timestamp="1582912800">February 28th, 2020</span>
 
 ### Major New Features
 
-- <span class="kezequk">Krez</span> may now be repaired by dropping two of them on the ground at different heights; the one higher up will transfer its durability to the lower one, with speed dependent on height difference
-- <span class="kezequk">Krez</span> no longer despawn when on the ground
+- <span k krez></span> may now be repaired by dropping two of them on the ground at different heights; the one higher up will transfer its durability to the lower one, with speed dependent on height difference
+- <span k krez></span> no longer despawn when on the ground
 - Quarries now evaporate water into Mineral Sand to prevent flooding
 - Added Herobrine
 
 ### Minor New Features
 
-- Added new <span class="kezequk">Krez</span> types
+- Added new <span k krez></span> types
 - Added config option to adjust meteor rarity
 
 ### Fixes
@@ -63,13 +108,11 @@ Released <span class="time" data-timestamp="1582912800">February 28th, 2020</spa
 - Fixed quarries deactivating before they finished "downloading" items
 - Fixed meteor spawns flying into unloaded chunks
 - Meteors may no longer fall in non-"surface" worlds
-- <span class="kezequk">Krez</span> may no longer be enchanted with Mending (it did nothing)
+- <span k krez></span> may no longer be enchanted with Mending (it did nothing)
 - Mirror rendering has been tweaked slightly
 
-<details markdown="1">
-<summary style="font-family:'Livvic',sans-serif;font-size:36px;font-weight:bold;margin-bottom:15px">Old Downloads</summary>
 ## v0.13531843206.3
-<a href="{{site.baseurl}}/dl/Quarrel-0.13531843206.3.jar" title="Download Quarrel v0.13531843206.3 for Forge on Minecraft 1.12.2" class="download forge alpha old"><span class="title">Quarrel</span><span class="version">0.13531843206.3</span><span class="mcversion">1.12.2</span></a>  
+<a href="{{site.baseurl}}/dl/Quarrel-0.13531843206.3.jar" title="Download Quarrel Alpha v0.13531843206.3 for Forge on Minecraft 1.12.2" class="download forge alpha old"><span class="title">Quarrel</span><span class="version">0.13531843206.3</span><span class="mcversion">1.12.2</span></a>  
 Released <span class="time" data-timestamp="1580666400">February 2nd, 2020</span>
 
 ### Major New Features
@@ -83,10 +126,10 @@ laser quarry. It's the result of asking the question "what if quarries, except
 laser", being bored, and following every tangential idea to its logical
 conclusion and allowing those tangents to shape the mod.
 
-To get started, first you'll need to find a Meteorite containing the <span class="kezequk">Krez</span>
-you need to power the quarry. <span class="kezequk">Krez</span> gems are randomly
+To get started, first you'll need to find a meteorite containing the <span k krez></span>
+you need to power the quarry. <span k krez></span> gems are randomly
 generated and have a wide variety of parameters, including color and cadence. Some
-kinds of <span class="kezequk">Krez</span> are rarer than others; maybe you can
+kinds of <span k krez></span> are rarer than others; maybe you can
 find the ultimate one? (Note: All these parameters are purely cosmetic, but their
 overall rarity is factored into a couple things.)
 
@@ -107,8 +150,8 @@ this conlang are written in a custom font.
 
 ![]({{site.baseurl}}/img/quarrel-speaking-2.png) <audio src="{{site.baseurl}}/audio/quarrel-nogem.mp3" controls></audio>
 
-<span class="kezequk">Krez</span> are enchantable with any pickaxe enchantments
-which will be used by the quarry. Rarer <span class="kezequk">Krez</span>
+<span k krez></span> are enchantable with any pickaxe enchantments,
+which will be used by the quarry. Rarer <span k krez></span>
 are better for enchanting, with the ultimate <span class="kezequk">Zepazker Krez</span>
 being as good as gold.
 
@@ -123,9 +166,9 @@ same block, will break it faster.
 <img src="{{site.baseurl}}/img/quarrel-interface.png">
 </center>
 
-The quarry additionally has a GUI that can be used to swap out <span class="kezequk">Krez</span>,
-see its current progress, and set the area it will mine in, with each square
-being 5x5 blocks, with the maximum possible area being 45x45.
+The quarry additionally has a GUI that can be used to swap out <span k krez></span>,
+see its current progress, and set the area it will mine in. Each square
+is 5x5 blocks, with the maximum possible area being 45x45.
 
 # Known Issues
 
@@ -146,9 +189,9 @@ vitriol.
 
 Banned topics: License, modpack rights (see introduction), plotholes/nitpicking.
 
-# Credits
+# Credits & Etc
 
-Quarry block, meteorite, and gem textures by [Kat](https://twitter.com/bluberry_kat).
+Quarry block, meteorite, <span k krez></span>, <span k krez-kra></span>, and <span k krekon></span> textures by [Kat](https://kat.blue).
 
 Sounds:
 * [Fireball by qubodup](https://freesound.org/people/qubodup/sounds/442827/)
@@ -159,7 +202,14 @@ Sounds:
 * [Brick Debris Fall 06.wav by debsound](https://freesound.org/people/debsound/sounds/437602/)
 * [Soaring Clouds by bruce965](https://freesound.org/people/bruce965/sounds/464108/)
 * [Dark Magic Loop by qubodup](https://freesound.org/people/qubodup/sounds/442825/)
+* [Break of a Small Part of a Lightbulb that Falls on the Ground by Natty23](https://freesound.org/people/Natty23/sounds/349246/)
+* [Fantasy_ui_Button_1.wav by ZenithInfinitiveStudios](https://freesound.org/people/ZenithInfinitiveStudios/sounds/376747/)
 
 Speech based on output from [MARYTTS](http://mary.dfki.de/).
 
 Everything else by Carbide Sun.
+
+The <span k kezequk></span> font was created by heavily modifying an English
+8x8 bitmap font until it was mostly unrecognizable, in a process inspired by
+the creation of the Standard Galactic Alphabet, then vectorizing it. Similarities
+to other scripts, natural or constructed, is purely coincidental and unintentional.
