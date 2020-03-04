@@ -17,12 +17,14 @@ span[k] {
 }
 span[k][krez]:after { content: "Krez"; }
 span[k][krez-kra]:after { content: "Krez Kra"; }
+span[k][krez-moqua]:after { content: "Krez Moqua"; }
 span[k][krekon]:after { content: "Krekon"; }
 span[k][kezequk]:after { content: "Kezequk"; }
 
 span[k]:before { display: inline-block; margin-right: 4px; background-size: 24px 24px; width: 24px; height: 24px; vertical-align: middle; }
 span[k][krez]:before { content: "";  background-image: url("{{site.baseurl}}/img/quarrel-krez-pic.png"); }
 span[k][krez-kra]:before { content: ""; background-image: url("{{site.baseurl}}/img/quarrel-krez-kra-pic.png"); }
+span[k][krez-moqua]:before { content: ""; background-image: url("{{site.baseurl}}/img/quarrel-krez-moqua-pic.png"); }
 span[k][krekon]:before { content: ""; background-image: url("{{site.baseurl}}/img/quarrel-krekon-pic.png"); }
 </style>
 
@@ -40,8 +42,22 @@ and you cannot reproduce this page's content.** Link, don't mirror.
 
 # Downloads
 
+## v0.13534475848.27
+<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.27.jar" title="Download Quarrel Beta v0.13534475848.27 for Forge on Minecraft 1.12.2" class="download forge beta"><span class="title">Quarrel</span><span class="version">0.13534475848.27</span><span class="mcversion">1.12.2</span></a>  
+Released <span class="time" data-timestamp="1583258400">March 3rd, 2020</span>
+
+### Changes
+Bugfixes and performance improvements. Err, I mean...
+
+- <span k krez-kra></span> color depth is now limited to 12-bit (was 24-bit) to make them more likely to stack
+- <span k krez-moqua></span> color depth has been limited to 15-bit (was 24-bit) as well
+- Adjust beam brightness scale for <span k krekon></span>
+- Fixed <span k krekon></span> count not syncing to clients causing beam to be too dim until the GUI was opened
+- Fixed a crash related to sound play events
+- Tweaked Herobrine
+
 ## v0.13534475848.17
-<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.17.jar" title="Download Quarrel Beta v0.13534475848.17 for Forge on Minecraft 1.12.2" class="download forge beta"><span class="title">Quarrel</span><span class="version">0.13534475848.17</span><span class="mcversion">1.12.2</span></a>  
+<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.17.jar" title="Download Quarrel Beta v0.13534475848.17 for Forge on Minecraft 1.12.2" class="download forge beta old"><span class="title">Quarrel</span><span class="version">0.13534475848.17</span><span class="mcversion">1.12.2</span></a>  
 Released <span class="time" data-timestamp="1583172000">March 2nd, 2020</span>
 
 ### Major New Features
