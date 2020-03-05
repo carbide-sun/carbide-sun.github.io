@@ -42,8 +42,15 @@ and you cannot reproduce this page's content.** Link, don't mirror.
 
 # Downloads
 
+## v0.13534475848.29
+<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.29.jar" title="Download Quarrel Beta v0.13534475848.29 for Forge on Minecraft 1.12.2" class="download forge beta"><span class="title">Quarrel</span><span class="version">0.13534475848.29</span><span class="mcversion">1.12.2</span></a>  
+Released <span class="time" data-timestamp="1583431200">March 5th, 2020</span>
+
+### New Features
+- Added advancements
+
 ## v0.13534475848.27
-<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.27.jar" title="Download Quarrel Beta v0.13534475848.27 for Forge on Minecraft 1.12.2" class="download forge beta"><span class="title">Quarrel</span><span class="version">0.13534475848.27</span><span class="mcversion">1.12.2</span></a>  
+<a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.27.jar" title="Download Quarrel Beta v0.13534475848.27 for Forge on Minecraft 1.12.2" class="download forge beta old"><span class="title">Quarrel</span><span class="version">0.13534475848.27</span><span class="mcversion">1.12.2</span></a>  
 Released <span class="time" data-timestamp="1583258400">March 3rd, 2020</span>
 
 ### Changes
