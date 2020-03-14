@@ -26,7 +26,7 @@ layout: default
 					{% endif %}
 					<h1 class="post-title">
 					{% if page.logo %}
-						<img class="texty-big" src="{{"/img/" | prepend: site.baseurl | append : page.logo}}" alt="{{page.title}}"/>
+						<img class="texty-big" src="{{"/img/" | prepend: site.baseurl | append : page.logo}}" alt="{{page.title}}" title="{{page.title}}"/>
 					{% else %}
 						{{ page.title | escape }}
 					{% endif %}

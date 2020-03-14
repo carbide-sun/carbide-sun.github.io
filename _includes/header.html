@@ -6,23 +6,6 @@
           <div class="logo-title">
             <a href="{{site.baseurl}}/" class="logo-text">Carbide Sun</a>
           </div>
-
-          <nav class="nav-menu">
-            <img class="menu-close" src="{{site.baseurl}}/img/close.svg"/>
-            <ul class="menu-list">
-              <li class="menu-item"><a href="{{site.baseurl}}/" class="menu-link">Home</a></li>
-              {% for page in site.pages %}
-                {% unless page.name == 'tags.html' or page.name == '404.html' %}
-              {% if page.title %}
-              <li class="menu-item"><a href="{{ page.url | prepend: site.baseurl }}" class="menu-link">{{ page.title }}</a></li>
-              {% endif %}
-                {% endunless %}
-              {% endfor %}
-            </ul>
-          </nav>
-          <div class="nav-buttons">
-            <img class="menu-button" src="{{site.baseurl}}/img/menu.svg"/>
-          </div>
         </div>
       </div>
     </div>

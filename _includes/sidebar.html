@@ -15,7 +15,7 @@
       <div class="recent-content">
         <h6 class="recent-title"><a href="{{ root_url }}{{ post.url | prepend: site.baseurl }}">
         {% if post.logo %}
-          <img class="texty-big" src="{{"/img/" | prepend: site.baseurl | append : post.logo}}" alt="{{post.title}}"/>
+          <img class="texty-big" src="{{"/img/" | prepend: site.baseurl | append : post.logo}}" alt="{{post.title}}" title="{{post.title}}"/>
         {% else %}
           {{ post.title }}
         {% endif %}

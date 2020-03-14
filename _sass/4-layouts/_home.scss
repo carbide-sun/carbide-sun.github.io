@@ -326,9 +326,10 @@
       font-size: 110px;
       text-align: center;
       letter-spacing: 2px;
+	  opacity: 0;
       color: $text;
       transform: translate(-50%,-50%);
-      transition: all 0.4s ease 0.3s;
+      transition: all 0.4s;
     }
   }
   .article-content {
