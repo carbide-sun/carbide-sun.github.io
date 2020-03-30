@@ -12,8 +12,8 @@ Please do not ask. The only conditions are you credit us (BY), don't make money
 off it (NC), and don't make changes to it (ND).
 
 We consider the mod authorship information shown in the mods screen, as above,
-sufficient credit. Websites and redistributions must link back to the original
-page for the mod here on carbide-sun.github.io.
+sufficient credit in modpacks. Other uses (websites, redistributions, etc) must
+link back to the original page for the mod here on carbide-sun.github.io.
 
 None of our mods will be distributed on CurseForge; this is the official
 website at carbide-sun.github.io. The website's content, including text and
