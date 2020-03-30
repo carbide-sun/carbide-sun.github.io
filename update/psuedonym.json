@@ -1,10 +1,11 @@
 {
   "homepage": "https://carbide-sun.github.io/psuedonym",
   "promos": {
-    "1.12.2-latest": "1.0",
-    "1.12.2-recommended": "1.0"
+    "1.12.2-latest": "1.1",
+    "1.12.2-recommended": "1.1"
   },
   "1.12.2": {
+    "1.1": "- Fixed nicks being lost on death\n- Fixed querying your nick by running just /nick showing an untranslated string\n- Added a /freenick command to force a nick to be made available\n- /nick will now tell you when your nick is changed even if it's a \"trivial\" change that doesn't broadcast\n- /nick will now error if you attempt to change your nick to what it already is",
     "1.0": "Initial release"
   }
 }

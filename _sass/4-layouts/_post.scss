@@ -75,6 +75,7 @@
     font-weight: normal;
     line-height: 28px;
     margin-bottom: 5px;
+    color: $primary-color;
   }
   .post-date {
     span {
@@ -256,8 +257,8 @@ audio {
 }
 
 .download {
-  background-color: #78909C;
-  color: #000 !important;
+  background-color: $primary-color;
+  color: #FFF !important;
   display: inline-block;
   width: 100%;
   max-width: 320px;

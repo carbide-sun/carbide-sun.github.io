@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+<style>
+body {
+	--theme-color: {{page.theme-color}};
+}
+</style>
 <div class="container">
 	<div class="row">
 		<div class="col col-12">
@@ -31,6 +36,7 @@ layout: default
 						{{ page.title | escape }}
 					{% endif %}
 					</h1>
+					<!--
 					<div class="post-info">
 						<div class="post-info-author">
 							<div class="info-author-avatar" style="background-image: url({{"/img/" | prepend: site.baseurl | append : site.author-avatar}})"></div>
@@ -43,6 +49,7 @@ layout: default
 							</span>
 						</div>
 					</div>
+					-->
 				</div>
 
 				<div class="post-body">

@@ -18,9 +18,9 @@
     line-height: 16px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: $text;
+    color: $primary-color;
     &:hover {
-      color: $gray-blue;
+      color: $primary-color;
     }
   }
   .top {
@@ -52,7 +52,7 @@
       font-size: 13px;
       color: $gray-blue;
       a {
-        color: $gray-blue;
+        color: $primary-color;
         &:hover {
           color: $primary-color;
         }

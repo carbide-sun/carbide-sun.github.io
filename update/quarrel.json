@@ -1,10 +1,11 @@
 {
   "homepage": "https://carbide-sun.github.io/quarrel",
   "promos": {
-    "1.12.2-latest": "0.13534475848.29",
-    "1.12.2-recommended": "0.13534475848.29"
+    "1.12.2-latest": "1.67.0",
+    "1.12.2-recommended": "1.67.0"
   },
   "1.12.2": {
+    "1.67.0": "- Quarries now load chunks\n- Fixed a crash when quarries mine blocks that attempt to give the breaker potion effects\n- Meteors are now seeded with proper randomness instead of attempting to use the entity ID as an entropy source\n- The overly long version joke got old",
     "0.13534475848.29": "New Features:\n- Added advancements",
     "0.13534475848.27": "Changes:\nBugfixes and performance improvements. Err, I mean...\n\n- Krez Kra color depth is now limited to 12-bit (was 24-bit) to make them more likely to stack\n- Krez Moqua color depth has been limited to 15-bit (was 24-bit) as well\n- Adjust beam brightness scale for Krekon\n- Fixed Krekon count not syncing to clients causing beam to be too dim until the GUI was opened\n- Fixed a crash related to sound play events\n- Tweaked Herobrine",
     "0.13534475848.17": "Major New Features:\n- Depleted Krez can now be broken by shift-rightclicking - this produces 4 Krez Kra and a Krekon\n- Krez Kra can be crafted into a similarly colored translucent block, which the quarry cannot mine\n- Krekon can be used to provide a speed boost to a quarry; up to 16 can be added with diminishing returns (16 is equivalent to Efficiency IV)\n- Krez repair may now occur between item frames\n\nMinor New Features:\n- Added another new Krez type\n- Added a creative tab\n- Krez now pulse while in item frames\n- Vanilla sand-containing recipes are now corrected to use the sand oredict, to make Mineral Sand useful\n- Mineral Sand can now be smelted into light gray stained glass\n\nChanges:\n- Quarry speech subtitles now only show when within 8 blocks of the source of the speech\n- Krez now last 50% less time to encourage Unbreaking and make it more reasonable to obtain the new items\n- Quarries now drop their held items when broken (this was previously a non-issue as quarries were unbreakable in survival while they held a Krez, but they may now hold Krekon as well)\n- Fixed quarries not starting correctly if they were asked to mine an area wholly in front of one they previously mined out\n- Fixed mining area not syncing correctly\n- Fixed quarries sometimes getting stuck for no reason",

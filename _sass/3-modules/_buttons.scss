@@ -4,7 +4,8 @@
   vertical-align: middle;
   font: inherit;
   text-align: center;
-  padding: round($base-spacing-unit / 2) ($base-spacing-unit * 2);
+  padding: 8px 12px;
+  line-height: 1;
   border-radius: $global-radius;
   cursor: pointer;
   transition: $global-transition;
@@ -14,7 +15,7 @@
     background-color: $button-background-color;
 
     &:hover {
-      background-color: darken($primary-color, 15%);
+      background-color: $primary-color;
       color: $white;
       transition: $global-transition;
     }

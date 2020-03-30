@@ -4,9 +4,10 @@ title: "Quarrel"
 logo: "quarrel-logo.png"
 image: quarrel.png
 date: 2020-01-27 00:00:00 +0000
-description: "What if quarries were cool. Sigh, what a nice world that would be. ...Hm, wait. There's no reason quarries couldn't be cool, is there?"
+description: "Colossally cooler quixotic quarries."
 tags: ["forge", "1.12.2", "magitech"]
 featured: true
+theme-color: "#E91E63"
 ---
 
 <style>
@@ -28,20 +29,26 @@ span[k][krez-moqua]:before { content: ""; background-image: url("{{site.baseurl}
 span[k][krekon]:before { content: ""; background-image: url("{{site.baseurl}}/img/quarrel-krekon-pic.png"); }
 </style>
 
-# Introduction
 Quarrel is a Forge mod for Minecraft 1.12.2. It is distributed under the
 [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
-It will not be distributed on CurseForge; this is the official website at
-carbide-sun.github.io. Yes, this license means you can use it in modpacks.
-Without asking. Really. Please do not ask. The only conditions are you credit
-me (BY), don't make money off it (NC), and don't make changes to it (ND). I
-consider the mod authorship information shown in the mods screen as sufficient
-attribution in modpacks — websites and redistributions must link back to this
-page. **Note that this page and the screenshots on it are All Rights Reserved
-and you cannot reproduce this page's content.** Link, don't mirror.
+It will not be distributed on Curse. **Note that this page and the screenshots
+on it are All Rights Reserved and you cannot reproduce this page's content.**
+Link, don't mirror. <a href="{{site.baseurl}}/license">More info</a>.
 
 # Downloads
 
+## v1.67.0
+<a href="{{site.baseurl}}/dl/Quarrel-1.67.0.jar" title="Download Quarrel v1.67.0 for Forge on Minecraft 1.12.2" class="download forge"><span class="title">Quarrel</span><span class="version">1.67.0</span><span class="mcversion">1.12.2</span></a>  
+Released <span class="time" data-timestamp="1585504800">March 29th, 2020</span>
+
+### Changes
+- Quarries now load chunks
+- Fixed a crash when quarries mine blocks that attempt to give the breaker potion effects
+- Meteors are now seeded with proper randomness instead of attempting to use the entity ID as an entropy source
+- The overly long version joke got old
+
+<details markdown="1">
+<summary style="font-family:'Livvic',sans-serif;font-size:36px;font-weight:bold;margin-bottom:15px">Old Downloads</summary>
 ## v0.13534475848.29
 <a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.29.jar" title="Download Quarrel Beta v0.13534475848.29 for Forge on Minecraft 1.12.2" class="download forge beta"><span class="title">Quarrel</span><span class="version">0.13534475848.29</span><span class="mcversion">1.12.2</span></a>  
 Released <span class="time" data-timestamp="1583431200">March 5th, 2020</span>
@@ -54,7 +61,7 @@ Released <span class="time" data-timestamp="1583431200">March 5th, 2020</span>
 Released <span class="time" data-timestamp="1583258400">March 3rd, 2020</span>
 
 ### Changes
-Bugfixes and performance improvements. Err, I mean...
+Bugfixes and performance improvements. Err, we mean...
 
 - <span k krez-kra></span> color depth is now limited to 12-bit (was 24-bit) to make them more likely to stack
 - <span k krez-moqua></span> color depth has been limited to 15-bit (was 24-bit) as well
@@ -91,8 +98,6 @@ Released <span class="time" data-timestamp="1583172000">March 2nd, 2020</span>
 - Fixed mining area not syncing correctly
 - Fixed quarries sometimes getting stuck for no reason
 
-<details markdown="1">
-<summary style="font-family:'Livvic',sans-serif;font-size:36px;font-weight:bold;margin-bottom:15px">Old Downloads</summary>
 ## v0.13534475848.10
 <a href="{{site.baseurl}}/dl/Quarrel-0.13534475848.10.jar" title="Download Quarrel Alpha v0.13534475848.10 for Forge on Minecraft 1.12.2" class="download forge alpha old"><span class="title">Quarrel</span><span class="version">0.13534475848.10</span><span class="mcversion">1.12.2</span></a>  
 Released <span class="time" data-timestamp="1582999200">February 29th, 2020</span>
@@ -199,20 +204,8 @@ is 5x5 blocks, with the maximum possible area being 45x45.
 
 * The mirror's angle makes no sense. It's sometimes close enough but other times
   way off; trigonometry is hard, okay?
-* Lasers are too thin from some angles. (More slightly-busted trig I was tired
+* Lasers are too thin from some angles. (More slightly-busted trig we were tired
   of messing with.)
-
-# Contact
-
-**If you are rude I will ignore you, period**. I don't use an issue tracker or
-forum, comments, etc. Instead you can contact me via email — [carbide-sun@pm.me](mailto:carbide-sun@pm.me).
-Warning: don't waste my time. I do this as a small hobby for fun.
-
-Feel free to ask questions, report bugs, talk about mods in general, etc. As
-long as you're polite and understand I have better things to do than field
-vitriol.
-
-Banned topics: License, modpack rights (see introduction), plotholes/nitpicking.
 
 # Credits & Etc
 

@@ -10,7 +10,7 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
   <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Livvic:400,400i,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap" rel="stylesheet">
 
 
 
@@ -27,17 +27,20 @@
   .download {
     background-image: url({{site.baseurl}}/img/download.svg);
   }
-  .download.alpha.forge:after {
-    background-image: url({{site.baseurl}}/img/forge-logo-white.svg);
+  .download.beta.forge:after {
+    background-image: url({{site.baseurl}}/img/forge-logo-black.svg);
   }
   .download.forge:after {
-    background-image: url({{site.baseurl}}/img/forge-logo-black.svg);
+    background-image: url({{site.baseurl}}/img/forge-logo-white.svg);
   }
   .download.alpha {
     background-image: url({{site.baseurl}}/img/download-alpha.svg);
   }
   .download.beta {
     background-image: url({{site.baseurl}}/img/download-beta.svg);
+  }
+  body {
+	  --theme-color: #FF5722;
   }
   </style>
 </head>

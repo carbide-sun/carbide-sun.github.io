@@ -4,24 +4,31 @@ layout: default
 <div class="container">
 	<div class="row">
 		<div class="col col-12">
+			<img src="{{site.baseurl}}/img/carbide_sun.png" style="float: left; height: 8em;"/>
 			<p>
-			Yo. I'm Carbide Sun. I make Minecraft mods. This is my website,
-			where you can read about and download my mods.
+			Yo. We're Carbide Sun. We make Minecraft mods. This is our website,
+			where you can read about and download our mods.
+			</p>
 			<p>
 			Death to CurseForge, long live the indie web. (For as much as GitHub
 			pages hosting can be considered the indie web, at least.)
+			</p>
+			We don't use an issue tracker or forum, don't have comments, and are
+			not on social media. You may contact us <a href="mailto:carbide-sun@protonmail.com">via email</a>.
+			If you are rude, we will ignore you. We do this as a small side hobby
+			for fun, and have better things to do than field vitriol.
+			<br/><br/><br/>
 		</div>
 	</div>
 </div>
 <div class="container">
-	<h1>Featured mod</h1>
 	<div class="row">
 	{% if site.posts.size > 0 %}
 		{%- for post in paginator.posts -%}
 		{% if post.featured %}
 		<div class="col col-12">
 			<article class="article-first">
-				<div class="article-image-first" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
+				<div class="article-image-first" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}}); --theme-color: {{post.theme-color}}">
 					<div class="article-content-first">
 						<div class="article-tag">
 						{% if post.tags.size >= 1 %}
@@ -51,13 +58,12 @@ layout: default
 </div>
 
 <div class="container">
-	<h2>Other mods</h2>
 	<div class="row">
 		<div class="col col-12 col-t-8">
 			<div class="row">
 			{%- for post in paginator.posts -%}
 				{% unless post.featured %}
-				<article class="article col col-12 col-t-6">
+				<article class="article col col-12 col-t-6" style="--theme-color: {{post.theme-color}}">
 					<div class="article-box">
 						<div class="article-head">
 							<a href="{{ post.url | prepend: site.baseurl }}" class="article-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
@@ -67,6 +73,7 @@ layout: default
 							</a>
 						</div>
 						<div class="article-content">
+							<hr>
 							<div class="article-info">
 								<!--<div class="article-date">
 									<span class="date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
